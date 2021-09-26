@@ -1,0 +1,36 @@
+/* respnsive */
+
+@media screen and (min-width:1100px){
+    .mainDiv {
+      display: flex;
+      padding: 5% 20% 5%;
+      margin: 8% auto 0 auto;
+    }
+    .childDiv{
+      padding: 5%;
+      margin: 0 auto;
+    }
+    .sedansCard {
+      background-color: var(--Bright-orange);
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 1rem;
+    }
+    .luxaryCard {
+      background-color: var(--Very-dark-cyan);
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
+    .cardDesc{
+      margin-bottom: 4.5rem;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .mainDiv {
+      display: flex;
+      padding: 7% 20% 5%;
+      margin: 4% auto 0 auto;
+    }
+  }

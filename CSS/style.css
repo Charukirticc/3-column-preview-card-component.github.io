@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --third-color: hsl(179, 100%, 13%);
+  --text-color: hsla(0, 0%, 100%, 0.75);
+  --background: hsla(0, 0%, 95%);
+}
+
+/* Typography */
+
+body {
+  background: var(--background);
+  font-size: 15px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-color);
+}
+a{
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+/* Styling a main div */
+.mainDiv {
+  display: block;
+  padding: 15% 12%;
+}
+
+/* Styling a child div */
+
+.childDiv {
+  width: 100%;
+  padding: 10%;
+  margin: 0 auto;
+}
+
+/* First Card */
+.sedansCard {
+  background-color: var(--Bright-orange);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.cardTitle {
+  margin-bottom: 1rem;
+}
+
+.cardImage {
+  margin-bottom: 2rem;
+}
+
+.cardDesc {
+  margin-bottom: 2.5rem;
+}
+
+/* second card */
+
+.suvCard {
+  background-color: var(--Dark-cyan);
+}
+
+/* third card */
+
+.luxaryCard {
+  background-color: var(--Very-dark-cyan);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+/* btn/ anchorTag */
+
+.btn {
+  padding: 15px 35px;
+  border-radius: 25px;
+  background: #fff;
+
+}
+
+.sedansCard a {
+  color: var(--Bright-orange);
+}
+
+.suvCard a {
+  color: var(--Dark-cyan);
+}
+
+.luxaryCard a {
+  color: var(--Very-dark-cyan);
+}
+
+.sedansCard a:hover {
+  background-color: var(--Bright-orange);
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.suvCard a:hover {
+  background-color: var(--Dark-cyan);
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.luxaryCard a:hover {
+  background-color: var(--Very-dark-cyan);
+  color: #fff;
+  border: 2px solid #fff;
+}
+
